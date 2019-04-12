@@ -11,7 +11,7 @@ pipeline {
        stage('NPM Setup') {
           steps {
              sh 'npm install'
-             sh 'sudo npm install -g ionic cordova'
+             sh 'npm install -g ionic cordova'
          }
        }
 
